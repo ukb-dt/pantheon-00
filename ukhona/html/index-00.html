@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
+<html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="ukhona/css/head.css" rel="stylesheet" />
+  <script src="#/ukhona/js/mathjax.js"></script>
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<!-- body[header, main, footer] -->
+<body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
+
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+    <a href="https://ukb-dt.github.io/dossier-01/"><div class="icon-box">🏠</div>Home</a>
+    <a href="https://ukb-dt.github.io/db/"><div class="icon-box">🎮</div>Dashboard</a>
+    <a href="https://ukb-dt.github.io/yebo-00/"><div class="icon-box">🎯</div>Yebo</a>
+    <a href="https://ukb-dt.github.io/dossier-00/"><div class="icon-box">📈</div>Frameworks</a>
+    <a href="#"><div class="icon-box">🧑‍🤝‍🧑</div>Team</a>
+    <a href="#"><div class="icon-box">✉️</div>Contact</a>
+    <a href="#"><div class="icon-box">🌊</div>Atheists</a>
+    <a href="#"><div class="icon-box">❤️</div>Knob</a>
+    <a href="#"><div class="icon-box">🔥</div>Gemini</a>
+    <a href="#"><div class="icon-box">🧠</div>Table</a>
+
+    <a href="#"><div class="icon-box">⚛️</div>Heisenberg</a>
+    <a href="#"><div class="icon-box">🔄</div>Prigogine</a>
+    <a href="#"><div class="icon-box">🧬</div>Vogelstein</a>
+    <a href="#"><div class="icon-box">📖</div>Dostoevsky</a>
+    <a href="#"><div class="icon-box">🗻</div>Nietzsche</a>
+    <a href="#"><div class="icon-box">✨</div>Yebo</a>
+    <a href="#"><div class="icon-box">🔥</div>Ngikhona</a>
+    <a href="#"><div class="icon-box">👁️</div>Saubona</a>
+    <a href="#"><div class="icon-box">🌀</div>Flux</a>
+    <a href="#"><div class="icon-box">🧭</div>Compass</a>
+
+    <a href="#"><div class="icon-box">📊</div>Analytics</a>
+    <a href="#"><div class="icon-box">🧮</div>Calculus</a>
+    <a href="#"><div class="icon-box">🧱</div>Blocks</a>
+    <a href="#"><div class="icon-box">🌱</div>Seed</a>
+    <a href="#"><div class="icon-box">🌋</div>Eruption</a>
+    <a href="#"><div class="icon-box">🛠️</div>Forge</a>
+    <a href="#"><div class="icon-box">🧪</div>Lab</a>
+    <a href="#"><div class="icon-box">📐</div>Geometry</a>
+    <a href="#"><div class="icon-box">📡</div>Signal</a>
+    <a href="#"><div class="icon-box">🕸️</div>Network</a>
+
+    <a href="#"><div class="icon-box">🪞</div>Mirror</a>
+    <a href="#"><div class="icon-box">🧿</div>Observer</a>
+    <a href="#"><div class="icon-box">🗝️</div>Key</a>
+    <a href="#"><div class="icon-box">🪜</div>Ladder</a>
+    <a href="#"><div class="icon-box">⚙️</div>Engine</a>
+    <a href="#"><div class="icon-box">🧠</div>Cortex</a>
+    <a href="#"><div class="icon-box">📓</div>Notebook</a>
+    <a href="#"><div class="icon-box">🕯️</div>Candle</a>
+    <a href="#"><div class="icon-box">🌌</div>Cosmos</a>
+    <a href="#"><div class="icon-box">🛰️</div>Orbit</a>
+
+    <a href="#"><div class="icon-box">🪐</div>Kepler</a>
+    <a href="#"><div class="icon-box">📜</div>Archive</a>
+    <a href="#"><div class="icon-box">🧾</div>Ledger</a>
+    <a href="#"><div class="icon-box">🧩</div>Puzzle</a>
+    <a href="#"><div class="icon-box">🗺️</div>Map</a>
+    <a href="#"><div class="icon-box">🕰️</div>Chronos</a>
+    <a href="#"><div class="icon-box">🪶</div>SignalNoise</a>
+    <a href="#"><div class="icon-box">🧵</div>Thread</a>
+    <a href="#"><div class="icon-box">🧯</div>Failsafe</a>
+    <a href="#"><div class="icon-box">🧠</div>Mind</a>
+
+    <a href="#"><div class="icon-box">🧬</div>Genome</a>
+    <a href="#"><div class="icon-box">📉</div>Decay</a>
+    <a href="#"><div class="icon-box">📈</div>Growth</a>
+    <a href="#"><div class="icon-box">⚖️</div>Balance</a>
+    <a href="#"><div class="icon-box">🪨</div>Substrate</a>
+    <a href="#"><div class="icon-box">🫀</div>Vital</a>
+    <a href="#"><div class="icon-box">🧊</div>Entropy</a>
+    <a href="#"><div class="icon-box">🔥</div>Ignition</a>
+    <a href="#"><div class="icon-box">🌊</div>Flow</a>
+    <a href="#"><div class="icon-box">🪞</div>Reflection</a>
+
+    <a href="#"><div class="icon-box">🧠</div>Meta</a>
+    <a href="#"><div class="icon-box">🔍</div>Inquiry</a>
+    <a href="#"><div class="icon-box">📦</div>Container</a>
+    <a href="#"><div class="icon-box">🧷</div>Anchor</a>
+    <a href="#"><div class="icon-box">🧭</div>Orientation</a>
+    <a href="#"><div class="icon-box">🕳️</div>Void</a>
+    <a href="#"><div class="icon-box">🪄</div>Phase</a>
+    <a href="#"><div class="icon-box">🧠</div>Kernel</a>
+    <a href="#"><div class="icon-box">⚡</div>Perturb</a>
+    <a href="#"><div class="icon-box">🏁</div>Exit</a>
+    </div>
+  </header>
+
+  <!-- main[sections], footer -->
+  <main class="page wrap-max">
+    <!-- section class="card" -->
+    <!-- section 2 -->
+    <!-- section 3 -->
+    <!-- section 4 -->
+    <!-- section 5 -->
+
+
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrap-max footer-wrap">
+      <div class="footer-chorus" aria-label="Ukubona chorus">
+        <span class="chip">"Ukubona" means</span>
+        <span class="chip"><em>to see, to witness</em> —</span>
+        <span class="chip">to look into the mirror.</span>
+      </div>
+      <div class="footer-extra" hidden></div>
+      <div class="footer-footnote" aria-live="polite"></div>
+      <div class="footer-micro" style="margin-top:12px">
+        <p>© 2025 Ukubona LLC · <a href="/assets/files/ukubona.vcf" download>vCard</a> · Johns Hopkins Enterprise Vendor (June 2025)</p>
+      </div>
+    </div>
+  </footer>
+  <script src="ukhona/js/main.js"></script>
+</body>
+</html>
+
+
+ 
