@@ -1,3 +1,4 @@
+
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
@@ -8,3 +9,4 @@
       skipHtmlTags: ['script','noscript','style','textarea','pre','code']
     }
   };
+
